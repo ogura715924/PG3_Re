@@ -115,6 +115,7 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp" />
     <ClCompile Include="GameScene.cpp" />
     <ClCompile Include="ICommand.cpp" />
+    <ClCompile Include="ImGuiManager.cpp" />
     <ClCompile Include="InputHandle.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
@@ -147,6 +148,7 @@ xcopy C:\KamataEngine\DirectXGame\Resources "$(OutDirFullPath)NoviceResources" /
     <ClInclude Include="C:\KamataEngine\Adapter\Novice.h" />
     <ClInclude Include="GameScene.h" />
     <ClInclude Include="ICommand.h" />
+    <ClInclude Include="ImGuiManager.h" />
     <ClInclude Include="InputHandle.h" />
     <ClInclude Include="Player.h" />
   </ItemGroup>

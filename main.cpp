@@ -67,6 +67,10 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		}
 	}
 
+	delete player;
+	delete command_;
+	delete inputHandler;
+
 	// ライブラリの終了
 	Novice::Finalize();
 	return 0;
